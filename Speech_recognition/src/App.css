@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Work+Sans:wght@200;400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+html {
+  color: rgb(96 101 123);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background: rgb(255 255 255);
+}
+
+.container{
+  text-align: center;
+  margin: 60px 0 40px;
+  padding: 20px;
+}
+
+.description{
+  padding: 10px;
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 200;
+  word-spacing: 5px;
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+.main_content{
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border: 1px solid rgb(226, 219, 219);
+  outline: none;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: relative;
+
+}
+
+.btn_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+button{
+  border: 0.1px solid #1bc70f;
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgb(42, 201, 164);
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  color: rgb(250, 247, 247);
+  font-weight: 400;
+  position: relative;
+  top: -70px;
+  cursor: pointer;
+  min-width: 90px;
+}
+
